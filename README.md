@@ -21,8 +21,11 @@ CSS used with form.Blade.php
 #### 6.	User.php  
 Model File 
 
-
+### Form
 ![](https://github.com/tushar385/Laravel-Project/blob/master/screenshot/f.PNG)
+### Validation
 ![](https://github.com/tushar385/Laravel-Project/blob/master/screenshot/form.PNG)
+### Fetch
 ![](https://github.com/tushar385/Laravel-Project/blob/master/screenshot/fetch.PNG)
+### Database
 ![](https://github.com/tushar385/Laravel-Project/blob/master/screenshot/Database.PNG)
