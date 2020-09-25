@@ -20,7 +20,10 @@ CSS used with form.Blade.php
 
 #### 6.	User.php  
 Model File 
+https://github.com/tushar385/Laravel-Project/blob/master/routes/web.php
 
+### 7. Countries.js
+contains list of the countries and state in dropdown.
 https://github.com/tushar385/Laravel-Project/blob/master/public/asset/js/countries.js
 
 ### Form
