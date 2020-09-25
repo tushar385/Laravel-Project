@@ -21,6 +21,8 @@ CSS used with form.Blade.php
 #### 6.	User.php  
 Model File 
 
+https://github.com/tushar385/Laravel-Project/blob/master/public/asset/js/countries.js
+
 ### Form
 ![](https://github.com/tushar385/Laravel-Project/blob/master/screenshot/f.PNG)
 ### Validation
