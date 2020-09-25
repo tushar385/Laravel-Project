@@ -12,44 +12,10 @@ class UserController extends Controller
 {
     public function fetch()
     {
-        //return user::all();
-        //return view('demo');
-
-
+       
         $data= user::all();
         return view('fetch',['data'=>$data]);
-
-
-        //return DB::select("select * from users");
-       // $user= user::all()->toArray();
-        //return view('demo',compact('user'));
     }
-
-    
-    /* function getData(Request $req)
-    {
-        $req->validate([
-            'username'=>'required | max:10',
-            'email'=>'required',
-            'password'=>'required', 
-            'phone' => 'required|min:11|numeric',
-            'drop1'=> 'required',
-            'country' =>'required|not_in:0',
-            'country'=>'required|min:1',
-            'checkbox'=>'required',
-            'flamingo'=>'required |array |min:1',
-            'gender'=> 'required|in:male,female,other'
-        
-        ]);
-        return $req->input();
-    } */
-
-
-
-    /* function getData(Request $req)
-    {
-        return user::all();
-    } */
 
 
     function getData(Request $req)
@@ -86,7 +52,4 @@ class UserController extends Controller
         
         
     }
-
-
-
 }
